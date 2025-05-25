@@ -1,4 +1,4 @@
-num = int(input('enter the desired table number(Integers only): '))
+num = int(input('put the number you want the table of(Integers only): '))
 for i in range(20):
   print(num," X ", i, "=", num * i)
   if(i == 10):
